@@ -6,8 +6,9 @@
 </style>
 
 <div class="container">
-<h2>The predicted share price is {{r}}</h2>
-<form action="/main" method="post">
+<h5>image link : {{r}}</h5>
+<img src="{{r}}" width="320" height="240">
+<form action="main" method="post">
     <p><input type="submit" value="Main"></p>
 </form>
 <form action="/end" method="post">
